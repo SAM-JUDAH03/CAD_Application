@@ -1,0 +1,72 @@
+## Visual Studio / C# / WPF .gitignore
+
+# Build output directories
+bin/
+obj/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages (restore via NuGet, don't commit)
+packages/
+*.nupkg
+!packages/repositories.config
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Auto-generated files
+*.g.cs
+*.g.i.cs
+*.designer.cs (auto-gen only)
+
+# Compiled resource files
+*.g.resources
+
+# Visual Studio temp files
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.cache
+*.pidb
+*.svd
+*.userprefs
+*.pidb.xml
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Backup files
+*.bak
+*.orig
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Crash dumps
+*.stackdump
